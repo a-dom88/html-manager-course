@@ -1,3 +1,5 @@
+/* #16697A   #489FB5   #d2dca6   #EDE7E3  #FFA62B  */
+
 * {
   margin: 0;
   padding: 0;
@@ -5,13 +7,12 @@
 }
 
 #header {
-  background-color: lightslategray;
+  background-color: #1b2f33;
   height: 103px;
   width: 1000px;
   margin: auto;
   position: sticky;
   top: 0;
-  border-bottom: 3px solid yellow;
 }
 
 #brand {
@@ -35,18 +36,22 @@
 
 nav {
   text-align: right;
-  font-size: 30px;
+  font-size: 20px;
   color: white;
 }
 
 span {
-  padding-left: 30px;
+  padding-left: 10px;
+}
+
+i {
+  padding-right: 10px;
 }
 
 #container {
   width: 1000px;
-  height: 4000px;
-  background-color: lightskyblue;
+  height: 2200px;
+  background-color: #d2dca6;
   margin: auto;
 }
 
@@ -59,10 +64,71 @@ h1 {
 }
 
 h1:hover {
-  color: yellow;
+  color: #ffa62b;
 }
 
 span:hover {
-  color: yellow;
+  color: #ffa62b;
   cursor: pointer;
+}
+
+.boxes {
+  height: 300px;
+  width: 300px;
+  background-color: #ffa62b;
+  margin-left: 25px;
+  float: left;
+  margin-top: 25px;
+  padding: 15px;
+  border-radius: 5px;
+}
+
+.boxes:hover {
+  background-color: red;
+  cursor: pointer;
+}
+
+.title {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
+
+p {
+  color: white;
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 15px;
+}
+
+button {
+  margin-left: 80px;
+  font-size: 15px;
+  background-color: #16697a;
+  border-radius: 3px;
+  color: white;
+  padding: 5px 30px;
+}
+
+hr {
+  border-color: white;
+  margin-bottom: 15px;
+  margin-top: 0px;
+}
+
+.fa,
+.fa-thumb-tack {
+  color: #1b2f33;
+  transform: rotate(15deg);
+}
+
+footer {
+  background-color: yellow;
+  height: 100px;
+  width: 1000px;
+  margin: auto;
+  position: sticky;
+  bottom: 0;
 }
