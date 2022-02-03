@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#header {
+  background-color: lightslategray;
+  height: 103px;
+  width: 1000px;
+  margin: auto;
+  position: sticky;
+  top: 0;
+  border-bottom: 3px solid yellow;
+}
+
+#brand {
+  background-color: transparent;
+  height: 100px;
+  width: 300px;
+  float: left;
+  position: fixed;
+  padding: 30px;
+}
+
+#navbar {
+  background-color: transparent;
+  height: 100px;
+  width: 700px;
+  float: left;
+  position: fixed;
+  margin-left: 300px;
+  padding: 40px;
+}
+
+nav {
+  text-align: right;
+  font-size: 30px;
+  color: white;
+}
+
+span {
+  padding-left: 30px;
+}
+
+#container {
+  width: 1000px;
+  height: 4000px;
+  background-color: lightskyblue;
+  margin: auto;
+}
+
+h1 {
+  font-family: "Oooh Baby", cursive;
+  text-align: center;
+  font-size: 40px;
+  cursor: pointer;
+  color: white;
+}
+
+h1:hover {
+  color: yellow;
+}
+
+span:hover {
+  color: yellow;
+  cursor: pointer;
+}
