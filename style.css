@@ -53,6 +53,7 @@ i {
   height: 1500px;
   background-color: #d2dca6;
   margin: auto;
+  padding-top: 25px;
 }
 
 h1 {
@@ -78,9 +79,9 @@ span:hover {
   background-color: #ffa62b;
   margin-left: 25px;
   float: left;
-  margin-top: 25px;
   padding: 15px;
   border-radius: 5px;
+  margin-bottom: 25px;
 }
 
 .boxes:hover {
@@ -118,7 +119,6 @@ hr {
   margin-top: 0px;
 }
 
-.fa,
 .fa-thumb-tack {
   color: #1b2f33;
   transform: rotate(15deg);
