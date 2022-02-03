@@ -50,7 +50,7 @@ i {
 
 #container {
   width: 1000px;
-  height: 2200px;
+  height: 1500px;
   background-color: #d2dca6;
   margin: auto;
 }
@@ -125,10 +125,15 @@ hr {
 }
 
 footer {
-  background-color: yellow;
+  background-color: #1b2f33;
   height: 100px;
   width: 1000px;
   margin: auto;
   position: sticky;
   bottom: 0;
+  padding: 30px;
+}
+
+.footer-paragraph {
+  text-align: center;
 }
